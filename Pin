@@ -1,0 +1,34 @@
+Important Pin Connections
+
+PIR Motion Sensor
+
+VCC → 5V
+GND → GND
+OUT → Digital Pin D2
+
+LDR (Photoresistor)
+
+One terminal → 5V
+Other terminal → Analog Pin A0
+10kΩ resistor connected between A0 and GND
+
+Temperature Sensor (TMP36)
+
+Left Pin → 5V
+Middle Pin → Analog Pin A1
+Right Pin → GND
+
+Green LED
+
+Anode (+) → Digital Pin D8
+Cathode (-) → 220Ω Resistor → GND
+
+Red LED
+
+Anode (+) → Digital Pin D9
+Cathode (-) → 220Ω Resistor → GND
+
+Power Connections
+
+Arduino 5V → Sensor VCC
+Arduino GND → Common Ground Rail
